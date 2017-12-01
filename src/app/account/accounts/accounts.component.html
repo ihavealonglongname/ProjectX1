@@ -1,0 +1,9 @@
+<div>
+  <px1-btn [label]="'Primaryss'" [type]="'primary'" [tooltipMessage]="'Primary Button'"></px1-btn>
+  <div *ngFor = "let account of AccountData">
+    <span>ID:</span><span>{{account.id}}</span>
+    <span>アカウント:</span><span>{{account.account}}</span>
+    <span>パスワード:</span><span>{{account.password}}</span>
+    <span>登録日時:</span><span>{{account.reg_datetime}}</span>
+  </div>
+</div>
